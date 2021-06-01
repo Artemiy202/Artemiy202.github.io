@@ -1,0 +1,80 @@
+body {
+  margin: 0%;
+  background-color: #f8d7d3;
+  border: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heder {
+  margin: 0% 15%;
+  padding: 0.5em 0em;
+  display: flex;
+  justify-content: center;
+  background-color: #c07e75;
+  letter-spacing: 4px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #f8e9e7;
+}
+.mainBox {
+  margin: 0% 15%;
+  min-height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  background-color: #f8e9e7;
+}
+.mainBox .box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: fit-content;
+  margin: 2em 10%;
+  background-color: #faf4f3;
+  box-shadow: 8px 8px 15px 0px rgba(50, 50, 50, 0.65);
+  padding: 3%;
+}
+.mainBox .box .photo {
+  width: 90%;
+  border: 2px solid black;
+}
+.mainBox .box h2 {
+  color: #4e2f2b;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.mainBox .box .skills_logo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5% 5%;
+  padding: 3%;
+}
+.mainBox .box .skills_logo .logo {
+  width: 150px;
+  margin: 1%;
+  border-radius: 30px;
+}
+.foother {
+  background-color: #c07e75;
+  margin: 0% 15%;
+  padding: 1em;
+  height: 100%;
+}
+.foother .contactBox ul {
+  display: flex;
+  align-items: center;
+  line-height: 2;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: rgb(40, 21, 21);
+}
+a {
+  color: rgb(40, 21, 21);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
